@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  min-width: 375px;
+}
+:root {
+  --Neutral_Very_Dark_Cyan: hsl(192, 82%, 13%);
+  --Neutral_Grayish_Blue: hsl(208, 11%, 55%);
+  --PrimaryPink: hsl(322, 100%, 66%);
+  --Pink: rgb(245, 78, 173);
+  --background1: hsl(0, 0%, 91%);
+  --background2: #e9e9e9;
+  --background-color:rgb(45, 65, 102);
+  --color-red:rgb(219, 52, 52);
+  --background-color: #fff
+     
+}
+
+picture {
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background:var(--background1);
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.contenedor1 {
+  display: flex;
+  flex-flow: row wrap;
+  background:var(--background2);
+  width: 100%;
+}
+
+.flex-container-header {
+  display: flex;
+  justify-content: right;
+  background-image: url(../imagenes/londonazul.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 31.0625rem;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color:rgb(45, 65, 102);
+  justify-content: space-between;
+  padding: 0.5rem 1.3rem;
+}
+.nav a {
+  text-align: center;
+  color:var(--background2);
+  text-decoration: none;
+  flex-wrap:wrap-reverse;
+}
+
+.nav a:hover {
+  color: var(--Pink);
+}
+
+.logoPuesta,
+.fotolond {
+  flex: 1;
+  line-height: 50px;
+  font-size: 25px;
+  text-align: right;
+}
+
+.logoPuesta h5 {
+  float: left;
+  font-size: 1.25rem;
+  padding-left: 0.2rem;
+}
+
+.logoPuesta, img {
+  padding-left: 0.2rem;
+  border-radius: 2rem;
+   
+}
+
+.fotolond h1 {
+  text-align: right;
+  align-items: flex-end;
+  color: black;
+}
+main {
+  padding: 2rem;
+  flex: 1 1 70%;
+}
+
+.condenedor2,
+article {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: 2rem;
+  max-width: 95vw;
+}
+
+.Inicioart-1 h3 p {
+  padding: 15px;
+}
+
+.paragraph1 {
+  padding: 1rem;
+  text-align: justify;
+}
+
+.paragraph2 {
+  padding-top: 0.8rem;
+  text-align: justify;
+}
+
+.paragraph3 {
+  padding-top: 0.8rem;
+  text-align: justify;
+}
+
+.lago {
+  display: inline-block;
+}
+.imglago {
+  float: left;
+  margin-right: 1rem;
+  width: 70%;
+}
+
+.lista {
+  padding: 1.6rem;
+  margin-bottom: 5px;
+}
+
+.arcoiris {
+  display: inline-block;
+}
+
+.Imgarco {
+  float: left;
+  margin-right: 1rem;
+  vertical-align: top;
+  border-radius: 25%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.listord {
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+iframe {
+  margin-top: 1.5rem;
+  width: 560px;
+  height: 315px;
+}
+
+/*.lado {
+  height: 150px;
+  margin: 10px;
+  flex: 1 1 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: flex-start;
+}*/
+
+.buttoncontac a {
+  text-decoration: none;
+  display: block;
+  border: 0.0625rem solid gray;
+  width: 12.5rem;
+  height: 2.1875rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  margin: auto;
+  background-color: #29b8aa;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  transition: 2s;
+  --webkit-transition: 2s;
+  -o-transition: 2s;
+  -moz-transition: 2s;
+}
+
+.buttoncontac a:hover {
+  background-color:var(--background2);
+  color: #288190;
+}
+
+footer {
+  display: flex;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 20%;
+  margin: auto;
+  padding: 2rem;
+}
+
+
+.galeria a {
+  display: flex;
+  padding: 5rem;
+  font-size: 1.5rem;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:var(--color-red);
+}
+
+.partners {
+  display: flex;
+  margin: auto;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.banner-home {
+  display: block;
+  background-image:url('https://www.edcities.org/dia-internacional-2021/wp-content/uploads/sites/74/2021/07/banner-dia-cast.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0.50rem;
+  width: 46.1875rem;
+  height: 12.0625rem;
+}
+
+h2 {
+  color:var(--color-red);
+}
+.social-container {
+  display: flex;
+}
+
+
+.social-icons {
+  display: flex;
+  padding-top: 6em;
+  padding-left: 0em;
+  justify-content: space-around;
+}
+.efecto {
+  font-size: 2em;
+}
+.fa-facebook-f {
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border: 0.5px solid;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: rgb(146, 200, 239);
+  color: white;
+}
+.fa-twitter {
+  padding-top: 0.3em;
+  padding-bottom: 0.2em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  border: 0.5px solid;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color: #d91c71;
+}
+.fa-instagram {
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  border: 0.5px solid;
+  border-radius: 50%;
+  background-color: rgb(27, 148, 195);
+  -webkit-border-radius: 50%;
+}
+.efecto:hover {
+  color: #ec1eca;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 2px 20px hsl(192, 91%, 27%);
+  -webkit-box-shadow: 0px 0px 20px 20px hsl(192, 91%, 27%);
+}
+
+.attribution {
+  display: flex;
+  margin-top: 6em;
+  justify-content: center;
+}
+.attribution a {
+  font-size: 0.8em;
+  background-color:var(--background2);
+  color: rgb(203, 79, 248);
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+
+
+
+/* tablet */
+@media screen and (max-width: 780px) {
+
+}
+
+/* mobil */
+@media screen and (max-width: 600px) {
+
+}
+  .nav {
+  display: flex;
+  flex-direction: row;
+
+  }
+
+  
+
+
+/* Tendría muchos comentarios que hacer, pero es la primera vez que hago todo el css, por mi cuenta. Hay cosas que no pude lograr, como colocar la etiqueta Aside en su lugar correspondiente dentro del layout de Flexbox.
+Estoy orgullosa de otras cosas que he podido entender al hacer la página: conceptos básicos e importantes como paddin y margin. También he reutilizado código de otras tareas, pero a veces no es tan sencillo como parece.
+He pasado muchas horas aquí sentada, que hasta mi Perro está preocupado...jajaja ya no le paseo.
+
+He disfrutado mucho haciendo este trabajo: me ha dado tiempo de reflexionar sobre muchas cosas, que se haría largo plasmar aquí.
+Lo que más problema me ha dado después del aside, el footer.
+
+
+
+
+
+
+
